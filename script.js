@@ -40,7 +40,12 @@ logoTitle.addEventListener('click', () => {
         card.style.transform = 'translateY(0)';
     });
     
-    
+    // ページの最上部にスムーススクロール
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+    });
 });
 
 // フィルター機能
